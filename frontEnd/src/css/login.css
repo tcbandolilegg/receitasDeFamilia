@@ -1,0 +1,15 @@
+nav p {
+  font-size: 20px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  height: 100px;
+}

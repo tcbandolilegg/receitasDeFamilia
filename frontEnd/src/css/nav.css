@@ -1,0 +1,75 @@
+nav {
+  align-items: center;
+  align-content: space-around;
+  background-color: var(--dark_orange);
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  justify-content: space-around;
+  margin-bottom: 5px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav a {
+  color: white;
+  font-size: x-large;
+  text-decoration: none;
+}
+
+nav #find {
+  background-color: var(--ligth_yellow);
+  border-radius: 0rem;
+  height: 35px;
+  /* width: 35px; */
+  border: none;
+}
+
+nav img {
+  height: 45px;
+}
+
+nav #botaoPesquisa {
+  background-image: url(/frontEnd/src/assets/images/lupa.png);
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+
+  background-position: center;
+  background-color: var(--ligth_yellow);
+  width: 35px;
+  margin: 0;
+  height: 35px;
+  border: none;
+}
+
+.pesquisa {
+  background-color: var(--ligth_yellow);
+  padding: 5px;
+}
+
+nav a:hover {
+  color: #fffb03;
+  cursor: pointer;
+  justify-content: space-between;
+}
+
+#login:hover,
+#btlogin:hover {
+  background-color: var(--mustard);
+  width: auto;
+  border-radius: 5px;
+  height: 35px;
+  font-size: large;
+  color: white;
+}
+
+#login,
+#btlogin {
+  background-color: white;
+  width: auto;
+  border-radius: 5px;
+  height: 35px;
+  font-size: large;
+  color: var(--mustard);
+}

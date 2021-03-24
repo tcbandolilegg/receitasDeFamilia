@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Receitas de família</title>
+    <link rel="stylesheet" href="/frontEnd/src/css/reset.css" />
+    <link rel="stylesheet" href="/frontEnd/src/css/var_ambiente.css" />
+    <link rel="stylesheet" href="/frontEnd/src/css/nav.css" />
+    <link rel="stylesheet" href="/frontEnd/src/css/footer.css" />
+    <link rel="stylesheet" href="/frontEnd/src/css/buttons.css" />
+    <link rel="stylesheet" href="/frontEnd/src/css/forms.css" />
+    <link rel="stylesheet" href="/frontEnd/src/css/inputs.css" />
+    <link rel="stylesheet" href="/frontEnd/style/owl/owl.carousel.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="/frontEnd/src/css/index.css" />
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="/frontEnd/js/owl/jquery.min.js"></script>
+    <script src="/frontEnd/js/owl/owl.carousel.min.js"></script>
+    <script src="/frontEnd/js/owl/setup.js"></script>
+
+    <!-- <script src="/frontEnd/js/footer.js"></script> -->
+    <script src="/frontEnd/js/index.js" defer></script>
+    <script src="/frontEnd/js/importandoJson.js" defer></script>
+
+    <link
+      rel="stylesheet"
+      href="/frontEnd/style/owl/owl.theme.default.min.css"
+    />
+  </head>
+  <body>
+    <br id="capa" />
+    <nav>
+      <a id="logo" href="#capa">
+        <img
+          src="/frontEnd/src/assets/images/logo_creme.png"
+          alt="Logo receitas de família - o caderno da vovó  que não vira pó"
+        />
+      </a>
+      <a href="#quemSomos">QUEM SOMOS</a>
+      <a href="#parcerias">PARCERIAS</a>
+      <a href="/frontEnd/pages/blog.html">BLOG</a>
+      <a href="#faleConosco">FALE CONOSCO</a>
+      <div class="pesquisa">
+        <input id="find" type="text" placeholder="Pesquisa" />
+        <button id="botaoPesquisa"></button>
+      </div>
+
+      <a id="login" href="/frontEnd/pages/login.html" target="_parent">
+        <button id="btlogin" wfd-id="29" style="color: black">LOGIN</button>
+      </a>
+
+      <a
+        id="login"
+        href="/frontEnd/pages/cadastroUsuario.html"
+        target="_parent"
+      >
+        <button id="btlogin" wfd-id="29" style="color: black">CADASTRO</button>
+      </a>
+
+      <!-- <div class="menuHamburger">
+        <span class="hamburger">.</span>
+        <span class="hamburger">.</span>
+        <span class="hamburger">.</span>
+      </div> -->
+    </nav>
+    <section id="capa" class="title">
+      <div>
+        <br /><br />
+        <img
+          src="/frontEnd/src/assets/images/receitas_familia_titulo.png"
+          alt=""
+        />
+      </div>
+    </section>
+    <section class="principal">
+      <div>
+        <img
+          src="/frontEnd/src/assets/images/fundoprincipal.png"
+          alt="Caderno de receitas da família"
+        />
+      </div>
+      <div class="home">
+        <br />
+        <div class="ebook">
+          <div class="ebookCab">
+            <br />
+            <p>Molhos e Temperos</p>
+            <br />
+          </div>
+
+          <br />
+          <br />
+          <br />
+          <p>
+            Nosso e-book de molhos e temperos irá lhe proporcionar experiências
+            maravilhosas de sabores e sensações
+          </p>
+          <br />
+
+          <div class="formLeadEbook" method="get" action="">
+            <br />
+            <input
+              class="inputLogin"
+              type="text"
+              name="nome"
+              placeholder="Digite seu nome aqui"
+            />
+            <br />
+            <br />
+
+            <input
+              class="inputLogin"
+              type="e-mail"
+              name="email"
+              placeholder="Digite seu e-mail"
+            />
+            <br />
+            <br />
+            <br />
+            <buton class="buttonForm botaoLaranja">
+              <a
+                style="color: var(--dark_red)"
+                href="mailto:receitaslivrodefamilia@gmail.com?subject=Quero%20meu%20e-book"
+                target="_top"
+                >Quero receber</a
+              >
+            </buton>
+            <br />
+            <br />
+            <br />
+            <a
+              href="./frontEnd/pages/TERMOS DE USO de software.pdf"
+              target="_blank"
+            >
+            </a>
+          </div>
+          <br />
+        </div>
+      </div>
+    </section>
+    <section class="explicacao">
+      <p class="textHome">
+        Com sugestões de pratos para todas as idades, esse site oferece
+        informações essenciais para o planejamento das refeições, da lista de
+        compras à organização da despensa. São mais de 700 receitas, entre
+        papinhas, pães, sopas, massas, carnes, pratos vegetarianos e sobremesas,
+        além de alternativas para quem tem restrições alimentares. Entre as
+        opções estão o Miniminestrone, ideal para os bebês que começam a ingerir
+        alimentos sólidos; o Nhoque com molho de queijo, fácil de fazer; o
+        Tender glaceado, para um jantar especial; o Cachorro-quente no pretzel e
+        o Wrap de salada Caesar, para um piquenique; e a Batata assada recheada,
+        para a criançada aprender a cozinhar.
+      </p>
+
+      <p></p>
+    </section>
+
+    <section class="emAlta">
+      <div class="slogan">
+        <h1>Veja as que estão em alta</h1>
+        <br /><br />
+      </div>
+      <div id="divEmAlta"></div>
+    </section>
+
+    <section class="carrossel">
+      <div class="carrosel-receitas">
+        <div class="owl-carousel owl-theme">
+          <div id="divEmAlta"></div>
+          <div class="item">
+            <img
+              class="box-receita"
+              src="/frontEnd/src/assets/images/receitas/bife-parmegiana.jpg"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <div class="item">
+            <img
+              class="box-receita"
+              src="/frontEnd/src/assets/images/receitas/Bolo_ Brownie_Doce_Leite_Ganache_Chocolate.jpg"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <div class="item">
+            <img
+              class="box-receita"
+              src="/frontEnd/src/assets/images/receitas/empadinha-de-arroz.jpg"
+              alt=""
+              srcset=""
+            />
+          </div>
+          <div class="item">
+            <img
+              class="box-receita"
+              src="/frontEnd/src/assets/images/receitas/gelado_de_doce_de_leite.jpg"
+              alt=""
+              srcset=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <br />
+    <br />
+    <br />
+    <div class="slogan" id="quemSomos">
+      <h1>Nossa Equipe</h1>
+    </div>
+    <br /><br /><br />
+    <section class="time">
+      <div class="ebook">
+        <div class="ebookCab">
+          <br />
+          <p>Norylaine Mangueira</p>
+          <br />
+        </div>
+        <img
+          src="/frontEnd/src/assets/images/equipe/norylaine.png"
+          alt="Norylaine Mangueira"
+        />
+        <p>
+          Graduada em engenharia de produção pela UFF e capacitada em gestão de
+          processos de negócios pela PUC-Rio. Desde 2015 contribuindo com a
+          consolidação de projetos e processos de negócios. Atualmente estudando
+          metodologias ágeis e programação de computadores.
+        </p>
+      </div>
+      <div class="ebook">
+        <div class="ebookCab">
+          <br />
+          <p>Thereza Bandoli</p>
+          <br />
+        </div>
+        <img
+          src="/frontEnd/src/assets/images/equipe/thereza.png"
+          alt="Thereza Cristina"
+        />
+        <p>
+          Graduada em Matemática pela UERJ e pós-graduada em Tecnologias
+          Educacionais pela PUC-Rio. Atua desde 1986 na área de T.I, passando
+          pela áreas de Desenvolvimento e infra-estrutura,Nos ultimos 20 anos
+          atuando como instrutora de Tecnologia.
+        </p>
+      </div>
+      <div class="ebook">
+        <div class="ebookCab">
+          <br />
+          <p>NINJA - Natália Valentin</p>
+
+          <br />
+        </div>
+        <img src="/frontEnd/src/assets/images/equipe/natalia.png" alt="" />
+        <p>
+          Apaixonada por programação, design e UX/UI, Iniciei minha jornada em
+          2017. Paticipo do programa Immersive Front-End Development da
+          Mastertech e no de desenvolvimento de back-end da {reprograma}.
+          Acredito em iniciativas de inclusão de mulheres em T.I.
+        </p>
+      </div>
+    </section>
+    <br />
+    <br />
+    <br />
+    <div class="slogan" id="quemSomos">
+      <h1>Nossos Parceiros</h1>
+    </div>
+    <section class="logosParceiros" id="parcerias">
+      <a href="https://www.b2mamy.com.br/" target="_parent">
+        <div>
+          <img
+            src="./frontEnd/src/assets/images/parceiros/B2M.png"
+            target="_parent"
+            alt="B2MAMY"
+          />
+        </div>
+      </a>
+      <div>
+        <a href="https://mastertech.com.br/">
+          <img
+            src="./frontEnd/src/assets/images/parceiros/masterTech.png"
+            alt="Mastertech"
+          />
+        </a>
+      </div>
+    </section>
+
+    <footer id="faleConosco">
+      <div class="contato">
+        <h1>AJUDA E SUPORTE</h1>
+        <br />
+        <a
+          style="color: var(--dark_red)"
+          href="mailto:receitaslivrodefamilia@gmail.com?subject=Formas%20de%20Pagamento"
+          target="_top"
+          >Formas de pagamento</a
+        >
+        <a
+          style="color: var(--dark_red)"
+          href="mailto:receitaslivrodefamilia@gmail.com?subject=Central%20de%20Atendimento"
+          target="_top"
+          >Central de Atendimento</a
+        >
+        <a
+          style="color: var(--dark_red)"
+          href="mailto:receitaslivrodefamilia@gmail.com?subject=Politica%20Privacidade"
+          target="_top"
+          >Politica Privacidade</a
+        >
+        <a
+          style="color: var(--dark_red)"
+          href="mailto:receitaslivrodefamilia@gmail.com?subject=Trabalhe%20Conosco"
+          target="_top"
+          >Trabalhe Conosco</a
+        >
+        <a
+          style="color: var(--dark_red)"
+          href="./frontEnd/pages/TERMOS DE USO de software.pdf"
+          target="_blank"
+          >Termo de Uso</a
+        >
+        <a
+          style="color: var(--dark_red)"
+          href="./frontEnd/pages/TERMOS DE USO de software.pdf"
+          target="_blank"
+          >Termo de Serviço</a
+        >
+      </div>
+      <div class="redesSociais">
+        <h1>REDES SOCIAS</h1>
+        <br />
+        <a class="redesSociais" href="">
+          <img
+            src="frontend/src/assets/images/redes_sociais/facebook_b.png"
+            alt="Facebook"
+          />
+        </a>
+        <a
+          class="redesSociais"
+          href="https://www.instagram.com/receitaslivrodefamilia/"
+        >
+          <img
+            src="frontend/src/assets/images/redes_sociais/instagram_b.png"
+            alt="Instagram"
+          />
+        </a>
+        <a class="redesSociais" href="">
+          <img
+            src="frontend/src/assets/images/redes_sociais/linkedin_b.png"
+            alt="LinkedIn"
+          />
+        </a>
+        <a class="redesSociais" href="">
+          <img
+            src="frontend/src/assets/images/redes_sociais/pinterest_b.png"
+            alt="Pintrest"
+          />
+        </a>
+        <a class="redesSociais" href="https://twitter.com/receitaslivrod1">
+          <img
+            src="frontend/src/assets/images/redes_sociais/twitter_b.png"
+            alt="Twitter"
+          />
+        </a>
+        <a
+          class="redesSociais"
+          href="https://www.youtube.com/channel/UCPhpbmx6880WfbyTtBIFVKA"
+        >
+          <img
+            src="frontend/src/assets/images/redes_sociais/youtube_b.png"
+            alt="Youtube"
+          />
+        </a>
+        <a class="redesSociais" href="https://wa.me/5522988399390">
+          <img
+            src="/frontend/src/assets/images/redes_sociais/whatsapp_b.png"
+            alt="Whatsapp"
+          />
+        </a>
+      </div>
+      <div class="formContato" method="get" action="">
+        <p>FALE CONOSCO</p>
+        <br />
+        <input type="text" name="nome" placeholder="Digite seu Nome aqui" />
+        <br />
+        <br />
+        <input type="e-mail" name="email" placeholder="Digite seu e-mail" />
+        <br />
+        <br />
+        <buton class="botaoLaranja botaoFale">
+          <a
+            style="color: var(--dark_red)"
+            href="mailto:receitaslivrodefamilia@gmail.com?subject=Quero%20saber%20mais"
+            target="_top"
+            >Enviar</a
+          >
+        </buton>
+      </div>
+    </footer>
+    <footer style="justify-content: center" id="license">
+      <p>
+        Copyright 2021 Desenvolvimento e Desing UX/UI Norylaine de Oliveira
+        Mangueira & Thereza Cristina Bandoli Legg
+      </p>
+      <a
+        class="redesSociaisRodape"
+        href="https://github.com/tcbandolilegg/receitas"
+      >
+        <img
+          src="frontend/src/assets/images/redes_sociais/gitHub.png"
+          alt="GitHub"
+        />
+      </a>
+    </footer>
+
+    <div id="termos">
+      <p style="padding: 20px">
+        Nós usamos cookies e outras tecnologias semelhantes para melhorar a sua
+        experiência em nossos serviços. Ao utilizar nossos serviços, você
+        concorda com tal monitoramento. Informamos ainda que atualizamos nossa
+        <a href="./frontEnd/pages/TERMOS DE USO de software.pdf" target="_blank"
+          >Política de Privacidade</a
+        >
+      </p>
+
+      <button id="btAceitarTermos" style="margin: 20px">Aceitar</button>
+    </div>
+  </body>
+</html>

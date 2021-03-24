@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>cadastro receita</title>
+  <link rel="stylesheet" href="/frontEnd/src/css/reset.css" />
+  <link rel="stylesheet" href="/frontEnd/src/css/nav.css" />
+  <link rel="stylesheet" href="/frontEnd/src/css/var_ambiente.css" />
+  <link rel="stylesheet" href="/frontEnd/src/css/buttons.css" />
+  <link rel="stylesheet" href="/frontEnd/src/css/index.css" />
+  <link rel="stylesheet" href="/frontEnd/src/css/inputs.css" />
+  <link rel="stylesheet" href="/frontEnd/src/css/cadastroReceitas.css" />
+  <link rel="stylesheet" href="/frontEnd/src/css/footer.css" />
+  <script src="/frontEnd/js/cadastroReceita.js" defer></script>
+</head>
+
+<body>
+  <nav>
+    <a id="logo" href="/index.html">
+      <img src="/frontEnd/src/assets/images/logo_creme.png"
+        alt="Logo receitas de família - o caderno da vovó  que não vira pó" />
+    </a>
+
+    <a href="/frontEnd/pages/blog.html">BLOG</a>
+    <a href="#faleConosco">FALE CONOSCO</a>
+  </nav>
+
+  <section>
+    <div class="dados">
+      <h1>Incluir Receita</h1>
+     <div id="selectCaderno" style="display: flex; flex-direction: row; justify-content: space-around;">
+
+<!--   
+      "decricao": "Bandoli",
+    "decricao": "RODOLPHI",
+    "decricao": "VARELLA",
+    "decricao": "Legg",
+      "decricao": "Ventura",
+    "decricao": "Mangueira",
+    "origem": "BRASILEIRA" -->
+
+     </div>
+      
+        <br><br>
+        
+      <div class="topicos campo">
+        <ul>
+          <li>
+            <p class="titulo">Nome da receita</p>
+            <input placeholder="ex. Bolo de aipim" name="nomeReceita" id="nomeReceita" type="text" style="width: 580px" />
+          </li>
+          <li>
+            <p class="titulo">Quem Criou</p>
+            <input placeholder="Vovó Joaquina" name="quemCriou" id="quemCriou" type="text" style="width: 580px" />
+          </li>
+          <li>
+            <p class="titulo">Ingredientes</p>
+            <textarea name="ingredientes"  cols="50" rows="4" id="ingredientes"></textarea>
+
+          </li>
+          <li>
+            <p class="titulo">Modo de preparo</p>
+            <textarea name="modoDePreparo"  cols="50" rows="4" id="modoDePreparo"></textarea>
+          </li>
+          <li>
+            <p class="titulo">História sobre a receita</p>
+            <textarea name="historiaReceita" id="historiaReceita" cols="50" rows="4" ></textarea>
+
+          </li>
+          <li>
+            <p class="titulo">Imagem da receita</p>
+            <input type="file" name="fotoReceita" id="fotoReceita"/>
+
+          </li>
+        </ul>
+        <button class="botaoLaranja" id="botaoSalvarReceita">Salvar</button>
+      </div>
+  </section>
+  <footer id="faleConosco">
+    <div class="contato">
+      <h1>AJUDA E SUPORTE</h1>
+      <br />
+      <a
+        style="color: var(--dark_red)"
+        href="mailto:receitaslivrodefamilia@gmail.com?subject=Formas%20de%20Pagamento"
+        target="_top"
+        >Formas de pagamento</a
+      >
+      <a
+        style="color: var(--dark_red)"
+        href="mailto:receitaslivrodefamilia@gmail.com?subject=Central%20de%20Atendimento"
+        target="_top"
+        >Central de Atendimento</a
+      >
+      <a
+        style="color: var(--dark_red)"
+        href="mailto:receitaslivrodefamilia@gmail.com?subject=Politica%20Privacidade"
+        target="_top"
+        >Politica Privacidade</a
+      >
+      <a
+        style="color: var(--dark_red)"
+        href="mailto:receitaslivrodefamilia@gmail.com?subject=Trabalhe%20Conosco"
+        target="_top"
+        >Trabalhe Conosco</a
+      >
+      <a
+        style="color: var(--dark_red)"
+        href="./frontEnd/pages/TERMOS DE USO de software.pdf"
+        target="_blank"
+        >Termo de Uso</a
+      >
+      <a
+        style="color: var(--dark_red)"
+        href="./frontEnd/pages/TERMOS DE USO de software.pdf"
+        target="_blank"
+        >Termo de Serviço</a
+      >
+    </div>
+    </div>
+    <div class="redesSociais">
+      <h1>REDES SOCIAS</h1>
+      <br />
+      <a class="redesSociais" href="">
+        <img src="/frontend/src/assets/images/redes_sociais/facebook_b.png" alt="Facebook" />
+      </a>
+      <a class="redesSociais" href="">
+        <img
+          src="/frontend/src/assets/images/redes_sociais/instagram_b.png"
+          alt="Instagram"
+        />
+      </a>
+      <a class="redesSociais" href="">
+        <img src="/frontend/src/assets/images/redes_sociais/linkedin_b.png" alt="LinkedIn" />
+      </a>
+      <a class="redesSociais" href="">
+        <img
+          src="/frontend/src/assets/images/redes_sociais/pinterest_b.png"
+          alt="Pintrest"
+        />
+      </a>
+      <a class="redesSociais" href="">
+        <img src="/frontend/src/assets/images/redes_sociais/twitter_b.png" alt="Twitter" />
+      </a>
+      <a class="redesSociais" href="">
+        <img src="/frontend/src/assets/images/redes_sociais/youtube_b.png" alt="Youtube" />
+      </a>
+      <a class="redesSociais" href="https://wa.me/5522988399390">
+        <img src="/frontend/src/assets/images/redes_sociais/whatsapp_b.png" alt="Whatsapp" />
+      </a>
+    </div>
+    <div class="formContato" method="get" action="">
+      <p>FALE CONOSCO</p>
+      <br />
+      <input type="text" name="nome" placeholder="digite seu Nome aqui" />
+      <br />
+      <br />
+      <input type="e-mail" name="email" placeholder="Digite seu e-mail" />
+      <br />
+      <br />
+      <buton class="botaoLaranja botaoFale">
+        <a
+          style="color: var(--dark_red)"
+          href="mailto:receitaslivrodefamilia@gmail.com?subject=Quero%20saber%20mais"
+          target="_top"
+          >Enviar</a
+        >
+    </div>
+  </footer>
+  <footer style="justify-content: center" id="license">
+    <p>
+      Copyright 2021 Desenvolvimento e Desing UX/UI por Norylaine
+      de Oliveira Mangueira & Thereza Cristina Bandoli Legg
+    </p>
+    <a class="redesSociaisRodape" href="https://github.com/tcbandolilegg/receitas">
+      <img src="/frontend/src/assets/images/redes_sociais/gitHub.png" alt="GitHub" />
+    </a>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+section {
+  background-color: var(--ligth_yellow);
+  margin-top: 70px;
+  padding: 70px 20px;
+  background-image: url(../assets/images/fundoprincipal.png);
+  background-size: cover;
+  height: 700px;
+}
+
+.dados {
+  background-color: white;
+  border: solid 3px var(--dark_orange);
+  width: 700px;
+  margin: auto;
+  padding: 40px;
+  height: auto;
+  font-size: 20px;
+
+  justify-content: center;
+}
+
+.dadosPerfil {
+  display: flex;
+  flex-direction: column;
+}
+.dados h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.botaoLaranja {
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 15px;
+}

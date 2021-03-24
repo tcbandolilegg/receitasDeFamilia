@@ -11,4 +11,3 @@
 ![Fundo do Site](https://github.com/tcbandolilegg/receitas/blob/main/src/assets/images/fundoprincipal.png)
 
 ##### O Receitas de Família é uma versão digital, daquelas receita que são passadas muitas vezes de formas orais, ou naquele cadeerninho que as vezes tá tão velhinho que quase tá virando pó
-"# receitasDeFamilia" 

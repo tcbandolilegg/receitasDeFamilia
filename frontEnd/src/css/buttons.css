@@ -1,0 +1,53 @@
+.botoes {
+  min-width: 250px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+.botaoLaranja {
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid var(--dark_orange);
+  color: var(--dark_orange);
+  height: auto;
+  min-width: 250px;
+  margin-top: 25px;
+  margin-left: 20px;
+  padding: 10px;
+  font-size: x-large;
+}
+
+.botaoLaranja:hover {
+  background-color: var(--dark_orange);
+  color: white;
+  cursor: pointer;
+}
+
+#login,
+#btlogin {
+  background-color: white;
+  width: auto;
+  border-radius: 5px;
+  height: 35px;
+  font-size: large;
+  color: var(--dark-orange);
+}
+
+nav button:hover {
+  background-color: var(--dark-yellow);
+  width: auto;
+  border-radius: 5px;
+  height: 35px;
+  font-size: large;
+  color: var(--dark-yellow);
+}
+nav button a:hover {
+  background-color: var(--dark-yellow);
+  width: auto;
+  border-radius: 5px;
+  height: 35px;
+  font-size: large;
+  color: var(--dark-yellow);
+}
+

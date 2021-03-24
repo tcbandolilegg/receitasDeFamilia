@@ -1,0 +1,47 @@
+section {
+  background-color: var(--ligth_yellow);
+  margin-top: 70px;
+  padding: 70px 20px;
+  background-image: url(../assets/images/fundoprincipal.png);
+  background-size: cover;
+  height: 700px;
+}
+
+.campoCaderno {
+  background-color: white;
+  border: solid 3px var(--dark_orange);
+  width: 600px;
+  margin: auto;
+  padding: 40px;
+  height: 350px;
+  text-align: center;
+}
+
+.campoCaderno ul li {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+.campoCaderno ul p {
+  width: 150px;
+  text-align: right;
+  margin-right: 16px;
+  font-size: 20px;
+}
+
+.campoCaderno h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.campoCaderno ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.botaoLaranja {
+  margin: auto;
+}

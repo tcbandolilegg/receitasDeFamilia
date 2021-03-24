@@ -1,0 +1,45 @@
+section {
+  background-color: var(--ligth_yellow);
+  margin-top: 70px;
+  padding: 70px 20px;
+  background-image: url(../assets/images/fundoprincipal.png);
+  background-size: cover;
+}
+
+.dados {
+  text-align: center;
+  background-color: white;
+  border: solid 3px var(--dark_orange);
+  width: 700px;
+  margin: auto;
+  padding: 40px;
+  font-size: 20px;
+}
+
+.dados h1 {
+  font-size: 30px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.titulo {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.topicos {
+  margin-bottom: 40px;
+}
+
+.campo ul li {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+
+.campo ul p {
+  width: 150px;
+  text-align: right;
+  margin-right: 16px;
+  font-size: x-large;
+}

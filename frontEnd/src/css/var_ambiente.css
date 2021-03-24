@@ -1,0 +1,19 @@
+:root {
+  --ligth_blue:#bedace;
+  --ligth_yellow:#fff8af;
+  --ligth_pink:#ffd3ae;
+  --mustard: #f5cd16;
+  --medium_blue:#80b7d5;
+  --dark_orange:#D82423; 
+  --ligth_brown: #bc6611;
+  --dark_brown: #92510f;
+  --dark_blue:#213d4b;
+
+
+  --font_titulo: 40px;
+  --font_corpo:25px;
+  --font_descricao:14px
+  --font_rotulo: 12px;
+  --font_input: 24px;
+}
+

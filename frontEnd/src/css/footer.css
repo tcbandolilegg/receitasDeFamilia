@@ -1,0 +1,71 @@
+footer {
+  font-size: 15px;
+  display: flex;
+  background-color: var(--dark_blue);
+  color: white;
+  height: auto;
+  align-items: center;
+}
+
+#license {
+  align-items: center;
+  text-align: center;
+}
+#faleConosco {
+  font-size: 20px;
+  margin-top: 10px;
+  text-align: left;
+  display: flex;
+  background-color: var(--dark_orange);
+  color: var(--ligth_yellow);
+  height: auto;
+  justify-content: space-around;
+  align-items: initial;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.redesSociais img {
+  margin-top: 5px;
+  margin-right: 25px;
+  height: 50px;
+}
+
+.redesSociaisRodape img {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: auto;
+  height: 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.redesSociaisRodape a {
+  text-decoration: none;
+  align-content: center;
+  align-items: center;
+  margin-top: 1px;
+}
+
+.logosAceleradoras img:hover,
+.logosParceiros img:hover,
+.redesSociais img:hover,
+.redesSociaisRodape img:hover {
+  cursor: pointer;
+}
+
+img:hover {
+  -webkit-filter: none;
+  filter: none;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  margin-right: 100px;
+  font-size: 25px;
+  justify-content: space-around;
+}

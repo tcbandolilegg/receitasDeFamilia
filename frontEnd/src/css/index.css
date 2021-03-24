@@ -1,0 +1,237 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin-top: 0;
+  font-family: Times, serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.redesSociais img:hover,
+.redesSociaisRodape img:hover {
+  cursor: pointer;
+}
+
+.principal div {
+  max-width: 1200px;
+}
+
+.title img {
+  max-width: 1200px;
+}
+
+.principal img {
+  max-width: 1000px;
+}
+
+.principal {
+  align-items: center;
+  /* margin-top: 50px; */
+  display: flex;
+  padding: 2px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-self: center;
+}
+.title {
+  align-items: center;
+  margin-top: 70px;
+  display: flex;
+  /* border: solid 5px green; */
+  padding: 10px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.home {
+  /* border: red solid 10px; */
+  margin-top: 30px;
+}
+
+.cadastro {
+  background-color: var(--ligth_yellow);
+  font-weight: bold;
+  font-size: x-large;
+  color: var(--mustard);
+  text-align: center;
+  border-radius: 18px;
+  border: var(--mustard) solid 6.5px;
+}
+.ebook {
+  border: var(--dark_orange) solid 3px;
+  width: 400px;
+  height: 600px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.ebook p {
+  font-size: x-large;
+  color: var(--dark_orange);
+  margin: 5px;
+}
+
+.ebookCab {
+  background-color: var(--dark_orange);
+  font-weight: bold;
+  font-size: x-large;
+  color: var(--mustard);
+  text-align: center;
+  border-radius: 18px;
+  border: var(--mustard) solid 5px;
+}
+
+.ebookCab p {
+  color: var(--ligth_yellow);
+}
+
+.slogan h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  color: var(--dark_orange);
+  text-align: center;
+}
+
+.textHome {
+  margin-top: 25px;
+  /* margin-bottom: 100px; */
+  text-align: justify;
+  text-indent: 50px;
+  font-size: 30px;
+  font-weight: 100;
+  /* max-width: 600px; */
+  margin: 100px;
+  padding: 5px;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.time img {
+  margin: 25px;
+  border-radius: 50%;
+  border: solid 2px var(--black_orange);
+  height: 250px;
+}
+
+.receita-principal .container {
+  width: 70%;
+}
+
+.box-receita {
+  height: 250px;
+  width: 50px;
+  border-radius: 50%;
+  display: block;
+  cursor: pointer;
+}
+
+.carrosel-receitas {
+  margin-top: 5px;
+}
+
+.logosParceiros {
+  display: flex;
+  align-content: space-around;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.logosParceiros div {
+  width: 300px;
+}
+
+.logosParceiros img,
+.logosAceleradoras img {
+  height: 150px;
+  width: 150px;
+}
+
+.logosAceleradoras img,
+.logosParceiros img,
+.redesSociais img,
+.redesSociaisRodape img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+}
+
+.logosAceleradoras img:hover,
+.logosParceiros img:hover,
+.redesSociais img:hover,
+.redesSociaisRodape img:hover {
+  cursor: pointer;
+}
+
+img:hover {
+  -webkit-filter: none;
+  filter: none;
+}
+
+#termos {
+  position: fixed;
+  top: 650px;
+  left: 140px;
+  align-items: center;
+  z-index: 1;
+  display: flex;
+  background-color: var(--ligth_yellow);
+  height: 80px;
+  justify-content: space-around;
+  width: 80%;
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.246);
+}
+
+#btAceitarTermos {
+  width: 200px;
+  background-color: var(--medium_blue);
+}
+
+#divEmAlta {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: space-around;
+}
+
+.receitasEmAlta {
+  text-align: center;
+  align-items: center;
+  max-width: 200px;
+}
+
+.fotoReceitaEmAlta {
+  border-radius: 25%;
+  height: 150px;
+  width: 200px;
+}
+.nomeReceitaEmAlta {
+  font-style: italic;
+}
+.quemCriouReceitaEmAlta {
+  font-weight: bolder;
+}
+
+.botaoFale:hover {
+  background-color: var(--mustard);
+  color: black;
+}
+
+.botaoFale {
+  margin-left: 0;
+}

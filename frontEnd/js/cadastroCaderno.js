@@ -49,6 +49,8 @@ function verificaCaderno(nomeFamiliaGlobal, origemFamiliaGlobal, convidaMembrosG
         window.location.href = `mailto: ${convidaMembrosGlobal}?subject=Acabei de criar o carderno de Receitas, no sistema de Livros de família => ${nomeFamiliaGlobal.toUpperCase()} e quero te convidar`
 
         console.log(dataCadernos)
+
+        grav
         window.location.href = "/frontEnd/pages/perfil.html"
 
       }

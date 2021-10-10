@@ -1,1 +1,0 @@
-app.get("/login/:email/:senha",)

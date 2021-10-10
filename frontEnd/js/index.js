@@ -1,4 +1,12 @@
+const express = require('express')
+
+const app = express()
+app.use(express.json())
+const fs = require('fs').promises;
+
 window.addEventListener('load', function () {
+
+  fs.writeFile("backend/src/modal/dataCadernos.json")
 
   const btAceitarTermos = document.querySelector("#btAceitarTermos");
   const divAceitarTermos = document.querySelector("#termos");

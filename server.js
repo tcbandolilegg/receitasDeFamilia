@@ -1,13 +1,10 @@
-// criando uma requisição http para criação do servidor
-// let http = require('http');
 const express = require('express')
 
 const app = express()
 app.use(express.json())
 // app.use(midware)
-
+app.use("/", "index.html")
 const port = 5000
-
 
 app.listen(port, () => {
   console.log(`\nServidor subiu ${port}`)
@@ -15,18 +12,18 @@ app.listen(port, () => {
 
 const fs = require('fs').promises;
 
+let dataCadernos = [];
 let dataReceitas = [];
-let dataCadastro = [];
 let dataUsers = [];
-let dataCategoria = [];
+let dataCategorias = [];
 let dataBlog = [];
 
 livroReceitas();
 
 
-
 async function livroReceitas() {
   await createArrays();
+
   console.log('\nFIM do carrecamento dos JSON');
 }
 
@@ -99,6 +96,7 @@ async function doDataBlog() {
     console.log('Erro no Carregamento de dataBlog.JSON', err);
   }
 }
+
 
   // dataCadernos.push(cadernoTemp)
 
